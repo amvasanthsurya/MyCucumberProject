@@ -4,18 +4,30 @@ import java.util.Scanner;
 
 public class Vasanth {
 	
+	
 	private void empId() {
 
 		System.out.println("empId: 8210");
+		
 	}
-
 	
 	public static void main(String[] args) {
 		
-		Vasanth v=new Vasanth();
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter your name");
+		String name=s.next();
+		System.out.println("enter your age");
+		int age=s.nextInt();
 		
-		v.empId();		
+		
+		System.out.println("name" + name);
+		System.out.println("age" + age);
+	}
+
+	
+		
+		
 		
 
 	}
-}
+
