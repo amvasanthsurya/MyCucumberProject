@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class Vasanth {
 	
-	int a=10;
-	int b=20;
+	
+	private void empId() {
+
+		System.out.println("empId: 8210");
+		
+	}
 	
 	public static void main(String[] args) {
 		
@@ -20,4 +24,10 @@ public class Vasanth {
 		System.out.println("age" + age);
 	}
 
-}
+	
+		
+		
+		
+
+	}
+
