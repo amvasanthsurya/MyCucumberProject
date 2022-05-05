@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Vasanth {
 	
+	int a=10;
+	int b=20;
+	
 	public static void main(String[] args) {
 		
 		Scanner s=new Scanner(System.in);
